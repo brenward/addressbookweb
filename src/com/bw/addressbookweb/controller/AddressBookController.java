@@ -110,4 +110,8 @@ public class AddressBookController {
 		model.addAttribute("addresses",addresses);
 		return "home";	
 	}
+	
+	public void setAddressBookDao(AddressBookDao dao){
+		addressBookDao = dao;
+	}
 }
